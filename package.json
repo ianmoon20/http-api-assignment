@@ -1,0 +1,30 @@
+{
+    "name": "http-api-assignment",
+    "version": "1.0.0",
+    "engines": {
+        "node": "8.10.0",
+        "npm": "5.5.1"
+    },
+    "description": "http api with correct status codes and accept headers",
+    "main": "server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests complete\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ianmoon20/http-api-assignment.git"
+    },
+    "author": "Ian Moon",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ianmoon20/http-api-assignment/issues"
+    },
+    "homepage": "https://github.com/ianmoon20/http-api-assignment#readme",
+    "devDependencies": {
+        "eslint": "^5.6.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-plugin-import": "^2.14.0"
+    }
+}
